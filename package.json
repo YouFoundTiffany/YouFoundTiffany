@@ -1,0 +1,13 @@
+
+  {
+    "name": "youfoundtiffany",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd youfoundtiffany.client && npm i",
+      "setup:server": "cd youfoundtiffany && npm i",
+      "start": "node youfoundtiffany/index.js"
+    }
+  }
+  
