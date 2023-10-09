@@ -4,7 +4,7 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
-// SECTION YouFoundTiffany custom colors and classes
+// SECTION YouFoundTiffany CUSTOM COLORS, FONTS, CLASSES
 :root {
   --SkyMist: #8ecae6;
   --DeepCerulean: #219ebc;
@@ -37,7 +37,7 @@
   background-color: #fb8500;
 }
 
-// Font Colors
+// TEXT COLORS
 .txt-SkyMist {
   color: #8ecae6;
 }
@@ -58,7 +58,15 @@
   color: #fb8500;
 }
 
+// FONTS
 
+.font-PlayfairDis {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-Lato {
+  font-family: 'Lato', sans-serif;
+}
 
 
 // SECTION YouFoundTiffany custom colors and classes
