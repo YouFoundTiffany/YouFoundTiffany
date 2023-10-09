@@ -4,7 +4,65 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
-body{
+// SECTION YouFoundTiffany custom colors and classes
+:root {
+  --SkyMist: #8ecae6;
+  --DeepCerulean: #219ebc;
+  --MidnightNavy: #023047;
+  --Goldenrod: #ffb703;
+  --SunsetOrange: #fb8500;
+}
+
+.bg-SkyMist {
+  background-color: #8ecae6;
+}
+
+.bg-DeepCerulean {
+  background-color: #219ebc;
+}
+
+.bg-MidnightNavy {
+  background-color: #023047;
+}
+
+.bg-SkyMist {
+  background-color: #8ecae6;
+}
+
+.bg-Goldenrod {
+  background-color: #ffb703;
+}
+
+.bg-SunsetOrange {
+  background-color: #fb8500;
+}
+
+// Font Colors
+.txt-SkyMist {
+  color: #8ecae6;
+}
+
+.txt-DeepCerulean {
+  color: #219ebc;
+}
+
+.txt-MidnightNavy {
+  color: #023047;
+}
+
+.txt-Goldenrod {
+  color: #ffb703;
+}
+
+.txt-SunsetOrange {
+  color: #fb8500;
+}
+
+
+
+
+// SECTION YouFoundTiffany custom colors and classes
+body {
   overscroll-behavior: none;
 }
 
@@ -30,6 +88,7 @@ select {
     &:valid {
       border: 1px solid $success;
     }
+
     &:invalid {
       border: 1px solid $danger;
     }
