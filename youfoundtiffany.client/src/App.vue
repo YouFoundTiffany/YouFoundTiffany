@@ -1,8 +1,8 @@
 <template>
   <header>
-    <Navbar />
+    <!-- <Navbar /> -->
   </header>
-  <main>
+  <main class="bg-black">
     <router-view />
   </main>
   <footer class="bg-MidnightNavy">
@@ -13,7 +13,7 @@
 <script>
 import { computed } from 'vue'
 import { AppState } from './AppState'
-import Navbar from './components/Navbar.vue'
+// import Navbar from './components/Navbar.vue'
 
 export default {
   setup() {
@@ -21,7 +21,7 @@ export default {
       appState: computed(() => AppState)
     }
   },
-  components: { Navbar }
+  // components: { Navbar }
 }
 </script>
 <style lang="scss">

@@ -1,9 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-MidnightNavy px-3">
+  <nav class="navbar navbar-expand-lg bg-SkyMist px-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center"> 🚨
-        <!-- TODO GET LOGO -->
-        <!-- <img alt="logo" src="../assets/img/cw-logo.png" height="45" /> -->
+      <div class="d-flex flex-column align-items-center">
+        <img alt="logo" src="../assets/img/THLogoHorizontal.svg" height="200" />
       </div>
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -13,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <router-link :to="{ name: 'About Me' }" class="btn text-success lighten-30 selectable text-uppercase">
+          <router-link :to="{ name: 'About Me' }" class="btn lighten-30 selectable font-Lato fw-bold">
             About Me
           </router-link>
         </li>
@@ -39,9 +38,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* .nav-link {
-  text-transform: uppercase;
-} */
+
 
 .navbar-nav .router-link-exact-active {
   border-bottom: 2px solid var(--bs-success);
