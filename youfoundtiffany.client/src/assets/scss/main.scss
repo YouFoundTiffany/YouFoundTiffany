@@ -146,104 +146,86 @@
   font-family: 'Noto Color Emoji', sans-serif;
 }
 
-/* ANIMATION */
-/* .bubbleFly
-.bubble */
+// .poloCard {
+//   height: 52vh;
+// }
 
-.bubble {
+// .contentsecs {
+//   z-index: -1;
+// }
+
+/* ANIMATION */
+/* */
+.poloroid {
   animation: fly 120s linear infinite;
   top: 0;
   left: 0;
-  position: fixed;
+  position: absolute;
   z-index: 999;
   max-height: 15rem;
   max-width: 100%;
-  /* pointer-events: none; */
+  // pointer-events: none;
 }
 
-.bubble:hover {
-  // transition: all .2s ease-in-out;
+.poloroid:hover {
   animation-play-state: paused;
-  // transform: scale(2.5);
 }
+
+
 
 @keyframes fly {
   0% {
-
-    transform: translate(-110%, 60vh) rotateZ(0deg);
+    transform: translate(-90%, 60vh) rotateZ(0deg);
     /* opacity: 1; */
   }
 
   12.5% {
-    transform: translate(100vw, -80%) rotateZ(20deg);
+    transform: translate(100vw, -20%) rotateZ(20deg);
   }
 
   25% {
-    transform: translate(-100%, 50vh) scale(1.75) rotateZ(-20deg);
+    transform: translate(-90%, 50vh) scale(1.75) rotateZ(-20deg);
   }
 
   37.5% {
-    transform: translate(-100%, -100%) rotateZ(-40deg);
+    transform: translate(-90%, -90%) rotateZ(-40deg);
     /* opacity: .5; */
   }
 
   50% {
-    transform: translate(100vw, 50vh) rotateZ(0deg);
+    transform: translate(90vw, 50vh) rotateZ(0deg);
   }
 
   62.5% {
-    transform: translate(20vw, 100vh) rotateZ(20deg);
+    transform: translate(20vw, 90vh) rotateZ(20deg);
   }
 
   75% {
-    transform: translate(100%, 100vh) rotateZ(20deg);
+    transform: translate(100%, 90vh) rotateZ(20deg);
     /* opacity: .25; */
   }
 
   87.5% {
-    transform: translate(50vw, -100%) scale(1.75) rotateZ(20deg);
+    transform: translate(50vw, -90%) scale(1.75) rotateZ(20deg);
   }
 
   100% {
-    transform: translate(-100%, 60vh) rotateZ(0deg);
+    transform: translate(-90%, 60vh) rotateZ(0deg);
     /* opacity: 1; */
   }
 }
 
-.galaxyBlur {
-  height: 20px;
-  /* Adjust the height of the blur as needed */
-  backdrop-filter: blur(10px);
-  /* Adjust the blur amount as needed */
-  background-color: rgba(255, 255, 255, 0.5);
-  /* Adjust the background color and opacity as needed */
-}
-
 .galaxy {
-  height: 50vh;
-  // overflow: hidden;
-  // position: absolute;
-  margin-bottom: 30rem;
-
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  // backdrop-filter: hue-rotate(40deg);
-  // overscroll-behavior: none;
+  background-attachment: fixed;
+  background-position: center bottom;
+  height: 80vh;
+  width: 100%;
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/459de539-eaef-4d11-bfdf-0c786f1f42ba/dfkytro-c8c27675-a312-4166-850e-c28885941c18.jpg/v1/fill/w_1264,h_632,q_70,strp/rainbow_galaxy_dreamscape_8_by_themeyoudontsee_dfkytro-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvNDU5ZGU1MzktZWFlZi00ZDExLWJmZGYtMGM3ODZmMWY0MmJhXC9kZmt5dHJvLWM4YzI3Njc1LWEzMTItNDE2Ni04NTBlLWMyODg4NTk0MWMxOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0qFeY1oqWkdnQdz6NGwo_jrSDKtSnOTj8snvwZdCaB8);
+  // overscroll-behavior: none;
 }
 
-// SECTION YouFoundTiffany custom colors and classes
-// body {
-// background-image: url(https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
-// // background-size: 130%;
-// background-size: cover;
-// background-position: center;
-// // background-position-x: 30%;
-// // background-position-y: 30%;
-// // backdrop-filter: saturate(30%);
-// backdrop-filter: hue-rotate(40deg);
-// overscroll-behavior: none;
-// }
 
 #app {
   display: flex;
