@@ -2,10 +2,10 @@
   <header>
     <!-- <Navbar /> -->
   </header>
-  <main class="bg-black">
+  <main class="">
     <router-view />
   </main>
-  <footer class="bg-MidnightNavy">
+  <footer class="bg-SunsetOrange">
 
   </footer>
 </template>

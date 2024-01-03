@@ -6,11 +6,11 @@
 
 // SECTION YouFoundTiffany CUSTOM COLORS, FONTS, CLASSES
 :root {
-  --cardinal: #CC223Bff;
-  --orange-wheel: #F58C45ff;
-  --jonquil: #EAC800ff;
-  --sea-green: #09cf58;
-  --moonstone: #11d1e2;
+  --Cardinal: #CC223Bff;
+  --Orange-Wheel: #F58C45ff;
+  --Jonquil: #EAC800ff;
+  --Sea-Green: #09cf58;
+  --Moonstone: #11d1e2;
   --SkyMist: #8ecae6;
   --Black: #000000;
   --DeepCerulean: #219ebc;
@@ -19,23 +19,23 @@
   --SunsetOrange: #fb8500;
 }
 
-.bg-cardinal {
-  background-color: var(--cardinal) !important;
+.bg-Cardinal {
+  background-color: var(--Cardinal) !important;
 }
 
-.bg-orange-wheel {
+.bg-Orange-Wheel {
   background-color: #F58C45ff;
 }
 
-.bg-jonquil {
+.bg-Jonquil {
   background-color: #EAC800ff;
 }
 
-.bg-sea-green {
+.bg-Sea-Green {
   background-color: #09cf58;
 }
 
-.bg-moonstone {
+.bg-Moonstone {
   background-color: #11d1e2;
 }
 
@@ -84,23 +84,23 @@
 }
 
 // TEXT COLORS
-.txt-cardinal {
+.txt-Cardinal {
   color: #CC223Bff;
 }
 
-.txt-orange-wheel {
+.txt-Orange-Wheel {
   color: #F58C45ff;
 }
 
-.txt-jonquil {
+.txt-Jonquil {
   color: #EAC800ff;
 }
 
-.txt-sea-green {
+.txt-Sea-Green {
   color: #09cf58;
 }
 
-.txt-moonstone {
+.txt-Moonstone {
   color: #11d1e2;
 }
 
@@ -162,9 +162,9 @@
 }
 
 .bubble:hover {
-  transition: all .2s ease-in-out;
+  // transition: all .2s ease-in-out;
   animation-play-state: paused;
-  transform: scale(1.1);
+  // transform: scale(2.5);
 }
 
 @keyframes fly {
@@ -210,9 +210,30 @@
   }
 }
 
+.galaxyBlur {
+  height: 20px;
+  /* Adjust the height of the blur as needed */
+  backdrop-filter: blur(10px);
+  /* Adjust the blur amount as needed */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Adjust the background color and opacity as needed */
+}
+
+.galaxy {
+  height: 50vh;
+  // overflow: hidden;
+  // position: absolute;
+  margin-bottom: 30rem;
+
+  background-size: cover;
+  background-position: center;
+  // backdrop-filter: hue-rotate(40deg);
+  // overscroll-behavior: none;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/459de539-eaef-4d11-bfdf-0c786f1f42ba/dfkytro-c8c27675-a312-4166-850e-c28885941c18.jpg/v1/fill/w_1264,h_632,q_70,strp/rainbow_galaxy_dreamscape_8_by_themeyoudontsee_dfkytro-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvNDU5ZGU1MzktZWFlZi00ZDExLWJmZGYtMGM3ODZmMWY0MmJhXC9kZmt5dHJvLWM4YzI3Njc1LWEzMTItNDE2Ni04NTBlLWMyODg4NTk0MWMxOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0qFeY1oqWkdnQdz6NGwo_jrSDKtSnOTj8snvwZdCaB8);
+}
+
 // SECTION YouFoundTiffany custom colors and classes
 // body {
-// color: var(--MidnightNavy) !important;
 // background-image: url(https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
 // // background-size: 130%;
 // background-size: cover;
