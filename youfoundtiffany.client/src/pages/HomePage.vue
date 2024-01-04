@@ -26,10 +26,142 @@
     </section> -->
 
     <section class="container txt-Passion my-3 py-3">
+
       <div class="row">
         <div class="col">
           <h1>Education</h1>
           <p>Content for Section 1</p>
+          <!-- 🎠LANGUAGES CAROUSEL -->
+          <div id="LangCarousel" class="carousel slide" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#LangCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#LangCarousel" data-slide-to="1"></li>
+              <li data-target="#LangCarousel" data-slide-to="2"></li>
+            </ol> -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt=" First
+                slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+                  alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                  alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+                  alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+                  alt="Eighth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inkscape/inkscape-original.svg"
+                  alt="Ninth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="Tenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="Eleventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Twelth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                  alt="Thirteenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                  alt="Fourteenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+                  alt="Fifthteenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                  alt="Sixteenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+                  alt="Seventeenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg"
+                  alt="Eighteenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
+                  alt="Nineteenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"
+                  alt="Twentieth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg"
+                  alt="Twentyfirst slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                  alt="Twentysenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 langIcons"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original-wordmark.svg"
+                  alt="Twentythird slide">
+              </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#LangCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#LangCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- 🎠LANGUAGES CAROUSEL -->
+
         </div>
       </div>
     </section>
@@ -132,4 +264,9 @@ export default {
 }
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.langIcons {
+  max-height: 100px;
+  max-width: 100%;
+}
+</style>
