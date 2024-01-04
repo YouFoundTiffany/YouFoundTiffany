@@ -6,12 +6,13 @@
 
 // SECTION YouFoundTiffany CUSTOM COLORS, FONTS, CLASSES
 :root {
-  --Cardinal: #CC223Bff;
-  --Orange-Wheel: #F58C45ff;
-  --Jonquil: #EAC800ff;
-  --Sea-Green: #09cf58;
-  --Moonstone: #11d1e2;
-  --SkyMist: #8ecae6;
+  --Cardinal: rgb(238, 17, 50);
+  --Passion: rgb(249, 0, 158);
+  --Orange-Wheel: rgb(242, 103, 11);
+  --Jonquil: rgb(246, 191, 10);
+  --Sea-Green: #04db21;
+  --Moonstone: #02eafb;
+  --SkyMist: #bd9bfa;
   --Black: #000000;
   --DeepCerulean: #219ebc;
   --MidnightNavy: #023047;
@@ -19,60 +20,72 @@
   --SunsetOrange: #fb8500;
 }
 
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.glow {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+
 .bg-Cardinal {
   background-color: var(--Cardinal) !important;
 }
 
+.bg-Passion {
+  background-color: var(--Passion) !important;
+}
+
 .bg-Orange-Wheel {
-  background-color: #F58C45ff;
+  background-color: var(--Orange-Wheel) !important;
 }
 
 .bg-Jonquil {
-  background-color: #EAC800ff;
+  background-color: var(--Jonquil) !important;
 }
 
 .bg-Sea-Green {
-  background-color: #09cf58;
+  background-color: var(--Sea-Green) !important;
 }
 
 .bg-Moonstone {
-  background-color: #11d1e2;
+  background-color: var(--Moonstone) !important;
 }
 
 .bg-sky-mist {
-  background-color: #8ecae6;
+  background-color: var(--SkyMist) !important;
 }
 
 .bg-black {
-  background-color: #000000;
+  background-color: var(--Black) !important;
 }
 
 .bg-SkyMist {
-  background-color: #8ecae6 !important;
+  background-color: var(--SkyMist) !important;
 }
 
 .bg-DeepCerulean {
-  background-color: #219ebc !important;
+  background-color: var(--DeepCerulean) !important;
 }
 
 .bg-MidnightNavy {
-  background-color: #023047 !important;
+  background-color: var(--MidnightNavy) !important;
 }
 
 .bg-SkyMist {
-  background-color: #8ecae6 !important;
+  background-color: var(--SkyMist) !important;
 }
 
 .bg-Goldenrod {
-  background-color: #ffb703 !important;
+  background-color: var(--Goldenrod) !important;
 }
 
 .bg-SunsetOrange {
-  background-color: #fb8500 !important;
+  background-color: var(--SunsetOrange) !important;
 }
 
 .bg-DeepCeruleanOpac50 {
-  background-color: #219dbc87 !important;
+  background-color: rgba(75, 167, 189, 0.5) !important;
 }
 
 .bg-opac40 {
@@ -85,54 +98,61 @@
 
 // TEXT COLORS
 .txt-Cardinal {
-  color: #CC223Bff;
+  color: var(--Cardinal) !important;
+}
+
+.txt-Passion {
+  color: var(--Passion) !important;
 }
 
 .txt-Orange-Wheel {
-  color: #F58C45ff;
+  color: var(--Orange-Wheel) !important;
 }
 
 .txt-Jonquil {
-  color: #EAC800ff;
+  color: var(--Jonquil) !important;
 }
 
 .txt-Sea-Green {
-  color: #09cf58;
+  color: var(--Sea-Green) !important;
 }
 
 .txt-Moonstone {
-  color: #11d1e2;
+  color: var(--Moonstone) !important;
 }
 
 .txt-sky-mist {
-  color: #8ecae6;
+  color: var(--SkyMist) !important;
 }
 
 .txt-black {
-  color: #000000;
+  color: var(--Black) !important;
 }
 
 .txt-SkyMist {
-  color: #8ecae6 !important;
+  color: var(--SkyMist) !important;
 }
 
 .txt-DeepCerulean {
-  color: #219ebc !important;
+  color: var(--DeepCerulean) !important;
 }
 
 .txt-MidnightNavy {
-  color: #023047 !important;
+  color: var(--MidnightNavy) !important;
 }
 
 .txt-Goldenrod {
-  color: #ffb703 !important;
+  color: var(--Goldenrod) !important;
 }
 
 .txt-SunsetOrange {
-  color: #fb8500 !important;
+  color: var(--SunsetOrange) !important;
 }
 
 // FONTS
+.tiltNeon {
+  font-family: 'Tilt Neon', sans-serif;
+}
 
 .font-PlayfairDis {
   font-family: 'Playfair Display', serif !important;
@@ -210,7 +230,7 @@
   }
 
   100% {
-    transform: translate(-90%, 60vh) rotateZ(0deg);
+    transform: translate(-90%, 80vh) rotateZ(0deg);
     /* opacity: 1; */
   }
 }
@@ -220,7 +240,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center bottom;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/459de539-eaef-4d11-bfdf-0c786f1f42ba/dfkytro-c8c27675-a312-4166-850e-c28885941c18.jpg/v1/fill/w_1264,h_632,q_70,strp/rainbow_galaxy_dreamscape_8_by_themeyoudontsee_dfkytro-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvNDU5ZGU1MzktZWFlZi00ZDExLWJmZGYtMGM3ODZmMWY0MmJhXC9kZmt5dHJvLWM4YzI3Njc1LWEzMTItNDE2Ni04NTBlLWMyODg4NTk0MWMxOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0qFeY1oqWkdnQdz6NGwo_jrSDKtSnOTj8snvwZdCaB8);
   // overscroll-behavior: none;

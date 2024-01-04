@@ -4,11 +4,14 @@
     <img :src="tiffpic" alt="" class="poloroid">
   </div>
   <!-- 📸 POLOROID  DIV -->
-  <section class="contentsecs bg-black m-0 p-0">
+
+
+
+  <section class="bg-dark m-0 p-0">
     <!-- 🚀 spacer div -->
-    <div style="height:35vh;"></div>
+    <div style="height:5vh;"></div>
     <!-- 🚀 spacer div -->
-    <section class="container bg-DeepCeruleanOpac50 txt-MidnightNavy rounded">
+    <!-- <section class="container bg-DeepCeruleanOpac50 txt-MidnightNavy rounded">
       <div class="row">
         <h2>Above the fold</h2>
         <div class="col-12 col-md-6">
@@ -20,9 +23,9 @@
           <p>Content for ATF - Column 2</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="container txt-MidnightNavy my-3 py-3">
+    <section class="container txt-Passion my-3 py-3">
       <div class="row">
         <div class="col">
           <h1>Education</h1>
@@ -32,7 +35,7 @@
     </section>
 
     <!-- Section 2 (Two columns) -->
-    <section class="container bg-DeepCeruleanOpac50 txt-MidnightNavy rounded my-3 py-3">
+    <section class="container bg-DeepCeruleanOpac50 txt-SunsetOrange rounded my-3 py-3">
       <div class="row">
         <h2>Skills</h2>
         <div class="col-12 col-md-6">
@@ -47,7 +50,7 @@
     </section>
 
     <!-- Section 3 -->
-    <section class="container txt-MidnightNavy my-3 py-3">
+    <section class="container txt-Jonquil my-3 py-3">
       <div class="row">
         <div class="col">
           <h1>Experience</h1>
@@ -57,7 +60,7 @@
     </section>
 
     <!-- Section 4 (Two columns) -->
-    <section class="container bg-DeepCeruleanOpac50 txt-MidnightNavy rounded my-3 py-3">
+    <section class="container bg-DeepCeruleanOpac50 txt-Sea-Green rounded my-3 py-3">
       <div class="row">
         <h2>Profiles</h2>
         <div class="col-12 col-md-6">
@@ -72,7 +75,7 @@
     </section>
 
     <!-- Section 5 -->
-    <section class="container txt-MidnightNavy my-3 py-3">
+    <section class="container txt-Moonstone my-3 py-3">
       <div class="row">
         <div class="col">
           <h1>Clients</h1>
@@ -82,7 +85,7 @@
     </section>
 
     <!-- Section 6 (Two columns) -->
-    <section class="container bg-DeepCeruleanOpac50 txt-MidnightNavy rounded my-3 py-3">
+    <section class="container bg-DeepCeruleanOpac50 txt-SkyMist rounded my-3 py-3">
       <div class="row">
         <h1>Portfolio</h1>
         <div class="col-12 col-md-6">
@@ -97,9 +100,9 @@
     </section>
 
     <!-- Section 7 -->
-    <section class="container txt-MidnightNavy my-3 py-3">
-      <h1>Contact Us</h1>
-      <p>Use this form to get in touch with us.</p>
+    <section class="container txt-Goldenrod my-3 py-3">
+      <h1>Contact Me</h1>
+      <p>Use this form to get in touch with me.</p>
 
       <form action="process_form.php" method="POST">
         <label for="name">Name:</label>
