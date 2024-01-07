@@ -177,7 +177,7 @@
 /* ANIMATION */
 /* */
 .poloroid {
-  animation: fly 120s linear infinite;
+  animation: fly 40s linear infinite;
   top: 0;
   left: 0;
   position: absolute;
@@ -195,25 +195,29 @@
 
 @keyframes fly {
   0% {
-    transform: translate(-90%, 60vh) rotateZ(0deg);
+    transform: translate(0%, 60vh) rotateZ(0deg);
+    // transform: translate(-90%, 60vh) rotateZ(0deg);
     /* opacity: 1; */
   }
 
   12.5% {
-    transform: translate(100vw, -20%) rotateZ(20deg);
+    transform: translate(80vw, 0%) rotateZ(20deg);
+    // transform: translate(100vw, -20%) rotateZ(20deg);
   }
 
   25% {
-    transform: translate(-90%, 50vh) scale(1.75) rotateZ(-20deg);
+    transform: translate(0%, 50vh) scale(1.75) rotateZ(-20deg);
+    // transform: translate(-90%, 50vh) scale(1.75) rotateZ(-20deg);
   }
 
   37.5% {
-    transform: translate(-90%, -90%) rotateZ(-40deg);
+    transform: translate(0%, 0%) rotateZ(-40deg);
+    // transform: translate(-90%, -90%) rotateZ(-40deg);
     /* opacity: .5; */
   }
 
   50% {
-    transform: translate(90vw, 50vh) rotateZ(0deg);
+    transform: translate(80vw, 50vh) rotateZ(0deg);
   }
 
   62.5% {
@@ -226,11 +230,13 @@
   }
 
   87.5% {
-    transform: translate(50vw, -90%) scale(1.75) rotateZ(20deg);
+    transform: translate(50vw, 0%) scale(1.75) rotateZ(20deg);
+    // transform: translate(50vw, -90%) scale(1.75) rotateZ(20deg);
   }
 
   100% {
-    transform: translate(-90%, 80vh) rotateZ(0deg);
+    transform: translate(0%, 80vh) rotateZ(0deg);
+    // transform: translate(-90%, 80vh) rotateZ(0deg);
     /* opacity: 1; */
   }
 }

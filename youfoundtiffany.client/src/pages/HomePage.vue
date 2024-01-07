@@ -1,9 +1,33 @@
 <template>
-  <!-- 📸 POLOROID  DIV -->
-  <div class="galaxy m-0 p-0">
-    <img :src="tiffpic" alt="" class="poloroid">
-  </div>
-  <!-- 📸 POLOROID  DIV -->
+  <section class="container-fluid m-0 p-0">
+    <div class="row galaxy m-0 p-0">
+      <div class="col-11 m-4 p-0">
+        <!-- 🚀 spacer div -->
+        <div style="height:15vh;"></div>
+        <!-- 🚀 spacer div -->
+
+        <h1 class="introTitle">🌈✨ Welcome to Tiffany's World! ✨<span class="flipRainbow">🌈</span></h1>
+        <p class="intoPara1">
+          Hi there! I'm Tiffany, a Full Stack Software Developer with a zest for creative problem-solving and a knack for
+          innovative tech solutions. My journey in tech is powered by my fun, bubbly personality, and a super positive
+          outlook.
+          I have an unquenchable curiosity to solve all challenges and am a committed philomath.</p>
+        <p class="intoPara2">Being neurodivergent, I celebrate diversity in thinking, thriving on supporting and
+          uplifting
+          others. My skills
+          are as
+          colorful as my personality, ranging from HTML5 to C# and Vue.js. Dive into my portfolio, where passion meets
+          proficiency, and discover how I turn coding challenges into kaleidoscopic triumphs!</p>
+      </div>
+    </div>
+
+
+    <!-- 📸 POLOROID  DIV -->
+    <div>
+      <img :src="tiffpic" alt="" class="poloroid">
+    </div>
+    <!-- 📸 POLOROID  DIV -->
+  </section>
 
 
 
@@ -265,6 +289,34 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.introTitle {
+  // font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.566);
+}
+
+.intoPara1 {
+  font-size: 1.5rem;
+  font-style: bold;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.566);
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.intoPara2 {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.566);
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.flipRainbow {
+  transform: scale(1, -1);
+  width: fit-content;
+}
+
 .langIcons {
   max-height: 100px;
   max-width: 100%;
